@@ -1,0 +1,265 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "VSCode SSRS color.json Color Picker",
+    "description": "JSON schema to allow picking colors in colors.json when making an SQL Server Reporting Services brand package.",
+    "type": "object",
+    "properties": {
+        "interface": {
+            "type": "object",
+            "properties": {
+                "primary": {
+                    "type": "string",
+                    "format": "color-hex"
+                },
+                "primaryAlt": {
+                    "type": "string",
+                    "format": "color-hex"
+                },
+                "primaryAlt2": {
+                    "type": "string",
+                    "format": "color-hex"
+                },
+                "primaryAlt3": {
+                    "type": "string",
+                    "format": "color-hex"
+                },
+                "primaryAlt4": {
+                    "type": "string",
+                    "format": "color-hex"
+                },
+                "primaryContrast": {
+                    "type": "string",
+                    "format": "color-hex"
+                },
+                "secondary": {
+                    "type": "string",
+                    "format": "color-hex"
+                },
+                "secondaryAlt": {
+                    "type": "string",
+                    "format": "color-hex"
+                },
+                "secondaryAlt2": {
+                    "type": "string",
+                    "format": "color-hex"
+                },
+                "secondaryAlt3": {
+                    "type": "string",
+                    "format": "color-hex"
+                },
+                "secondaryContrast": {
+                    "type": "string",
+                    "format": "color-hex"
+                },
+                "neutralPrimary": {
+                    "type": "string",
+                    "format": "color-hex"
+                },
+                "neutralPrimaryAlt": {
+                    "type": "string",
+                    "format": "color-hex"
+                },
+                "neutralPrimaryAlt2": {
+                    "type": "string",
+                    "format": "color-hex"
+                },
+                "neutralPrimaryAlt3": {
+                    "type": "string",
+                    "format": "color-hex"
+                },
+                "neutralPrimaryContrast": {
+                    "type": "string",
+                    "format": "color-hex"
+                },
+                "neutralSecondary": {
+                    "type": "string",
+                    "format": "color-hex"
+                },
+                "neutralSecondaryAlt": {
+                    "type": "string",
+                    "format": "color-hex"
+                },
+                "neutralSecondaryAlt2": {
+                    "type": "string",
+                    "format": "color-hex"
+                },
+                "neutralSecondaryAlt3": {
+                    "type": "string",
+                    "format": "color-hex"
+                },
+                "neutralSecondaryContrast": {
+                    "type": "string",
+                    "format": "color-hex"
+                },
+                "neutralTertiary": {
+                    "type": "string",
+                    "format": "color-hex"
+                },
+                "neutralTertiaryAlt": {
+                    "type": "string",
+                    "format": "color-hex"
+                },
+                "neutralTertiaryAlt2": {
+                    "type": "string",
+                    "format": "color-hex"
+                },
+                "neutralTertiaryAlt3": {
+                    "type": "string",
+                    "format": "color-hex"
+                },
+                "neutralTertiaryContrast": {
+                    "type": "string",
+                    "format": "color-hex"
+                },
+                "danger": {
+                    "type": "string",
+                    "format": "color-hex"
+                },
+                "success": {
+                    "type": "string",
+                    "format": "color-hex"
+                },
+                "warning": {
+                    "type": "string",
+                    "format": "color-hex"
+                },
+                "info": {
+                    "type": "string",
+                    "format": "color-hex"
+                },
+                "dangerContrast": {
+                    "type": "string",
+                    "format": "color-hex"
+                },
+                "successContrast": {
+                    "type": "string",
+                    "format": "color-hex"
+                },
+                "warningContrast": {
+                    "type": "string",
+                    "format": "color-hex"
+                },
+                "infoContrast": {
+                    "type": "string",
+                    "format": "color-hex"
+                },
+                "kpiGood": {
+                    "type": "string",
+                    "format": "color-hex"
+                },
+                "kpiBad": {
+                    "type": "string",
+                    "format": "color-hex"
+                },
+                "kpiNeutral": {
+                    "type": "string",
+                    "format": "color-hex"
+                },
+                "kpiNone": {
+                    "type": "string",
+                    "format": "color-hex"
+                },
+                "kpiGoodContrast": {
+                    "type": "string",
+                    "format": "color-hex"
+                },
+                "kpiBadContrast": {
+                    "type": "string",
+                    "format": "color-hex"
+                },
+                "kpiNeutralContrast": {
+                    "type": "string",
+                    "format": "color-hex"
+                },
+                "kpiNoneContrast": {
+                    "type": "string",
+                    "format": "color-hex"
+                }
+            }
+        },
+        "theme": {
+            "type": "object",
+            "properties": {
+                "dataPoints": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "color-hex"
+                    }
+                },
+                "good": {
+                    "type": "string",
+                    "format": "color-hex"
+                },
+                "bad": {
+                    "type": "string",
+                    "format": "color-hex"
+                },
+                "neutral": {
+                    "type": "string",
+                    "format": "color-hex"
+                },
+                "none": {
+                    "type": "string",
+                    "format": "color-hex"
+                },
+                "background": {
+                    "type": "string",
+                    "format": "color-hex"
+                },
+                "foreground": {
+                    "type": "string",
+                    "format": "color-hex"
+                },
+                "mapBase": {
+                    "type": "string",
+                    "format": "color-hex"
+                },
+                "panelBackground": {
+                    "type": "string",
+                    "format": "color-hex"
+                },
+                "panelForeground": {
+                    "type": "string",
+                    "format": "color-hex"
+                },
+                "panelAccent": {
+                    "type": "string",
+                    "format": "color-hex"
+                },
+                "tableAccent": {
+                    "type": "string",
+                    "format": "color-hex"
+                },
+                "altBackground": {
+                    "type": "string",
+                    "format": "color-hex"
+                },
+                "altForeground": {
+                    "type": "string",
+                    "format": "color-hex"
+                },
+                "altMapBase": {
+                    "type": "string",
+                    "format": "color-hex"
+                },
+                "altPanelBackground": {
+                    "type": "string",
+                    "format": "color-hex"
+                },
+                "altPanelForeground": {
+                    "type": "string",
+                    "format": "color-hex"
+                },
+                "altPanelAccent": {
+                    "type": "string",
+                    "format": "color-hex"
+                },
+                "altTableAccent": {
+                    "type": "string",
+                    "format": "color-hex"
+                }
+            }
+        }
+    }
+}
